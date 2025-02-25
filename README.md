@@ -54,7 +54,9 @@ https://git-scm.com/download/win ). Quelques liens :
   - ajoutez dans le workflow Github la configuration de l'analyse Sonar Cloud du code
 - Rédigez **ci-dessous** une courte analyse du premier rapport produit par Sonar (métriques, état général...) :
 
-Le premier rapport Sonar indique...
+Le premier rapport Sonar indique une analyse de 642 lignes de la branche "master":
+30 issue ,0.0% Coverage , 3,6% Duplication
+Une issue critique
 
 
 ### Tests unitaires
