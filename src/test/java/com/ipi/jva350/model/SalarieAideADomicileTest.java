@@ -18,7 +18,7 @@ class SalarieAideADomicileTest {
         // When
         boolean res = s.aLegalementDroitADesCongesPayes();
         // Then
-        Assertions.assertEquals(false, res); // TODO vérifie que Sonar demande amélioration
+        Assertions.assertEquals(false, res);
     }
 
     /**
@@ -51,29 +51,6 @@ class SalarieAideADomicileTest {
         Assertions.assertTrue(res);
     }
 
-    /* tests nominaux / typiques n'apportant rien de plus :
-    @Test
-    void testALegalementDroitADesCongesPayes100() {
-        // Given
-        SalarieAideADomicile s = new SalarieAideADomicile();
-        s.setJoursTravaillesAnneeNMoins1(100);
-        // When
-        boolean res = s.aLegalementDroitADesCongesPayes();
-        // Then
-        Assertions.assertTrue(res); // TODO vérifie que Sonar demande amélioration
-    }
-    @Test
-    void testALegalementDroitADesCongesPayes101() {
-        // Given
-        SalarieAideADomicile s = new SalarieAideADomicile();
-        s.setJoursTravaillesAnneeNMoins1(101);
-        // When
-        boolean res = s.aLegalementDroitADesCongesPayes();
-        // Then
-        Assertions.assertTrue(res); // TODO vérifie que Sonar demande amélioration
-    }
-    */
-
     @Test
     void testALegalementDroitADesCongesPayesFalseAuxLimites() {
         // Given
@@ -104,7 +81,6 @@ class SalarieAideADomicileTest {
         LinkedHashSet<LocalDate>  res = s.calculeJoursDeCongeDecomptesPourPlage(LocalDate.parse("2022-11-01"), LocalDate.parse("2022-11-01"));
         // Then
         Assertions.assertNotNull(res);
-        //Assertions.assertTrue(res.isEmpty());
         Assertions.assertEquals(0, res.size());
     }
 
@@ -120,7 +96,6 @@ class SalarieAideADomicileTest {
         LinkedHashSet<LocalDate> nbJoursDansPlage = s.calculeJoursDeCongeDecomptesPourPlage(LocalDate.parse(dateDebutString), LocalDate.parse(dateFinString));
         // Then
         Assertions.assertNotNull(nbJoursDansPlage);
-        //Assertions.assertTrue(res.isEmpty());
         Assertions.assertEquals(count, nbJoursDansPlage.size());
     }
 
