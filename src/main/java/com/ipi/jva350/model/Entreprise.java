@@ -3,11 +3,11 @@ package com.ipi.jva350.model;
 import java.time.LocalDate;
 import java.util.*;
 
-public final class Entreprise {
+public class Entreprise {
 
-    private static final Map<Integer, LocalDate> datePaque = new HashMap<>();
+    private static Map<Integer, LocalDate> datePaque = new HashMap<>();
 
-    private Entreprise() {
+    Entreprise() {
 
     }
 
@@ -146,9 +146,8 @@ public final class Entreprise {
      * @param fin date de fin de la plage
      * @return
      */
-    public static boolean estDansPlage(LocalDate d, LocalDate debut, LocalDate fin) {
-        // à implémenter en TDD !
-        throw new RuntimeException("à implémenter en TDD !");
+    public boolean estDansPlage(LocalDate d, LocalDate debut, LocalDate fin) {
+        return d.isAfter(debut) && d.isBefore(fin);
     }
 
 }

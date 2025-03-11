@@ -1,0 +1,71 @@
+### To-Do List - Évaluation TP
+
+#### 1. **Dates Importantes**
+//TODO Date limite de rendu : **Vendredi 14 mars**
+//TODO Bonus si rendu anticipé : **Vendredi 7 mars**
+//TODO Journée d'autonomie : **Vendredi 28 février**
+
+---
+
+#### 2. **Rendu des Travaux**
+//TODO Envoyer le lien vers le repository GitHub forké
+//TODO Vérifier que les commits et pushs sont faits
+
+---
+
+#### 3. **Parties à Réaliser pour l'Évaluation**
+
+##### a) **Plateforme d'Intégration**
+//DONE Vérifier que le code compile sans bug
+//DONE Aucune alerte Sonar critique ou bloquante
+//DONE Corriger au moins une alerte Sonar supplémentaire (par exemple, un Code Smell) 7 issue corrigé
+//TODO Bonus : Améliorer davantage l'analyse Sonar (sans viser la perfection)
+
+---
+
+##### b) **Tests Unitaires et TDD**
+//TODO Implémenter la méthode `Entreprise.estDansPlage()` avec TDD (test unitaire PUIS implémentation)
+
+---
+
+##### c) **Tests Unitaires - Partie 1**
+//TODO Réaliser un test unitaire paramétré de :
+//TODO `Entreprise.estJourFerie()`
+//TODO OU `Entreprise.proportionPondereeDuMois()` et `Entreprise.getPremierJourAnneeDeConges()`
+
+---
+
+##### d) **Choix parmi les 3 Options suivantes :**
+
+###### Option 1 : **Tests d'Intégration**
+//TODO Réaliser les tests d'intégration suivants :
+//TODO Tests de repository (utiliser le modèle corrigé fourni)
+//TODO Tests d'intégration de service
+
+###### Option 2 : **Correction de Test Mocké**
+//TODO Corriger le test en pièce jointe
+//TODO Commenter les correctifs :
+//TODO Identifier les données d'entrée incorrectes
+//TODO Justifier les corrections effectuées
+
+###### Option 3 : **Test Unitaire Mocké**
+//TODO Réaliser un test unitaire sans dépendance à la base de données (test mocké)
+
+---
+
+##### e) **Maintenabilité**
+//TODO Améliorer selon au moins une convention de codage
+//TODO Corriger au moins un Code Smell (comme demandé dans la section Plateforme d'Intégration)
+//TODO Rédiger une analyse Sonar minimale de l'état final
+
+###### Bonus :
+//TODO Ajouter la journalisation
+//TODO Rédiger la documentation avec MkDocs
+
+---
+
+#### 4. **Vérification Finale**
+//TODO Vérifier la conformité avec les consignes
+//TODO Tester la compilation et l'absence d'erreurs bloquantes
+//TODO Vérifier l'upload correct sur GitHub
+//TODO Envoyer le lien de dépôt au professeur
