@@ -1,9 +1,9 @@
 ### To-Do List - Évaluation TP
 
 #### 1. **Dates Importantes**
-//TODO Date limite de rendu : **Vendredi 14 mars**
-//TODO Bonus si rendu anticipé : **Vendredi 7 mars**
-//TODO Journée d'autonomie : **Vendredi 28 février**
+//INFO Date limite de rendu : **Vendredi 14 mars**
+//INFO Bonus si rendu anticipé : **Vendredi 7 mars**
+//INFO Journée d'autonomie : **Vendredi 28 février**
 
 ---
 
@@ -24,13 +24,13 @@
 ---
 
 ##### b) **Tests Unitaires et TDD**
-//TODO Implémenter la méthode `Entreprise.estDansPlage()` avec TDD (test unitaire PUIS implémentation)
+//DONE Implémenter la méthode `Entreprise.estDansPlage()` avec TDD (test unitaire PUIS implémentation)
 
 ---
 
 ##### c) **Tests Unitaires - Partie 1**
 //TODO Réaliser un test unitaire paramétré de :
-//TODO `Entreprise.estJourFerie()`
+//DONE `Entreprise.estJourFerie()`
 //TODO OU `Entreprise.proportionPondereeDuMois()` et `Entreprise.getPremierJourAnneeDeConges()`
 
 ---
