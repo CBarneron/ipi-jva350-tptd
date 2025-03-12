@@ -29,9 +29,9 @@
 ---
 
 ##### c) **Tests Unitaires - Partie 1**
-//TODO Réaliser un test unitaire paramétré de :
-//DONE `Entreprise.estJourFerie()`
-//TODO OU `Entreprise.proportionPondereeDuMois()` et `Entreprise.getPremierJourAnneeDeConges()`
+//DONE Réaliser un test unitaire paramétré de :
+//DONE `Entreprise.estJourFerie()` OU `Entreprise.proportionPondereeDuMois()` 
+//DONE `Entreprise.getPremierJourAnneeDeConges()`
 
 ---
 

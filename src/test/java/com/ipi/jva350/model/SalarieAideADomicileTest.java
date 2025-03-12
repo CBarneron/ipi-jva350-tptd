@@ -8,7 +8,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
-
 class SalarieAideADomicileTest {
 
     @Test
@@ -98,5 +97,6 @@ class SalarieAideADomicileTest {
         Assertions.assertNotNull(nbJoursDansPlage);
         Assertions.assertEquals(count, nbJoursDansPlage.size());
     }
+
 
 }

@@ -163,9 +163,7 @@ deux que vous auriez peut-être fait différemment sans faire de TDD.
 
 ### Tests unitaires
 
-- Tester unitairement (de manière paramétrée) la méthode `Entreprise.estJourFerie()` OU BIEN
-`Entreprise.proportionPondereeDuMois()` et `Entreprise.getPremierJourAnneeDeConges()`. **Attention**, elles contiennent
-des erreurs, bon débogage ! Améliorez l'ensemble de la qualité de cette méthode, avec l'aide de Sonar.
+
 - Testez sans dépendance à la base de données la méthode `SalarieAideADomicileService.calculeLimiteEntrepriseCongesPermis()`
 
 ### Tests d'intégration
