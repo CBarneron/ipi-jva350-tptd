@@ -178,4 +178,4 @@ deux que vous auriez peut-être fait différemment sans faire de TDD.
 
 
 
-Le rapport Sonar final indique
+Le rapport Sonar final indique environ 3à modification possible a la fin de ce tp. Certaine amélioration aurait pue etre  apporté comme enlever les commentaire inutile , revoir le code , vérifier la protabilité des méthodes. D'utre plus complet aurais pu être approté. 
