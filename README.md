@@ -155,30 +155,24 @@ l'envoie (git commit ; git push)
 NB. il y a encore nombre d'autres solutions : le binôme dont le projet n'a pas été choisi forke le projet choisi puis
 fait des pull request dans le projet choisi, ou rajoute la remote du projet choisi dans le sien...
 
-### TDD
+### TDD Fait
 
 - Faites du TDD pour tester unitairement la méthode `Entreprise.estDansPlage()` : écrire d'abord les tests entièrement
 (pensez aux cas limites) et seulement ensuite écrivez le code de la méthode. Indiquez dans un commentaire une chose ou
 deux que vous auriez peut-être fait différemment sans faire de TDD.
 
-### Tests unitaires
+### Tests unitaires fait
 
-
-- Testez sans dépendance à la base de données la méthode `SalarieAideADomicileService.calculeLimiteEntrepriseCongesPermis()`
+- Testez sans dépendance à la base de données la méthode `SalarieAideADomicileService.calculeLimiteEntrepriseCongesPermis()
 
 ### Tests d'intégration
 
 - Tests de repository : Testez la méthode `SalarieAideADomicileRepository.partCongesPrisTotauxAnneeNMoins1()`
 - Tests d'intégration de service : Créez un test d'intégration d'un exemple d'usage typique de la méthode `SalarieAideADomicileService.calculeLimiteEntrepriseCongesPermis()`
-- BONUS Ecrire un test d'acceptation Cucumber pour au moins la partie "ancienneté" la fonctionnalité de calcul
-de limite de congés permis par l'entreprise.
 
 ### Maintenabilité
 
 - conventions de codage : pareil, faites les respecter, améliorez la lisibilité du code
-- journalisation : Changez la configuration pour réaliser la rotation des fichiers de logs tous les jours et que chaque
-fichier ne dépasse pas 1 MO.
-- BONUS : Créez une petite documentation statique en utilisant MkDocs.
 - Rédigez **ci-dessous** une courte analyse du rapport produit par Sonar (métriques, évolution, état général...) :
 
 Le rapport Sonar final indique...
