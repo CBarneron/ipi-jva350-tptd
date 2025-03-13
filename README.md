@@ -167,12 +167,15 @@ deux que vous auriez peut-être fait différemment sans faire de TDD.
 
 ### Tests d'intégration
 
-- Tests de repository : Testez la méthode `SalarieAideADomicileRepository.partCongesPrisTotauxAnneeNMoins1()`
-- Tests d'intégration de service : Créez un test d'intégration d'un exemple d'usage typique de la méthode `SalarieAideADomicileService.calculeLimiteEntrepriseCongesPermis()`
+- Tests de repository : Testez la méthode `SalarieAideADomicileRepository.partCongesPrisTotauxAnneeNMoins1()` FAit
+- Tests d'intégration de service : Créez un test d'intégration d'un exemple d'usage typique de la méthode `SalarieAideADomicileService.calculeLimiteEntrepriseCongesPermis()` 
 
 ### Maintenabilité
 
 - conventions de codage : pareil, faites les respecter, améliorez la lisibilité du code
 - Rédigez **ci-dessous** une courte analyse du rapport produit par Sonar (métriques, évolution, état général...) :
 
-Le rapport Sonar final indique...
+
+
+
+Le rapport Sonar final indique

@@ -49,9 +49,8 @@ public class SalarieAideADomicileServiceTest {
                 moisEnCours, congesPayesAcquisAnneeNMoins1, moisDebutContrat, premierJourDeConge, dernierJourDeConge);
 
         // Assert
-        long expectedValue = 8; 
+        long expectedValue = 8;
         assertEquals(expectedValue, result);
     }
-
     
 }

@@ -23,7 +23,9 @@ public class LinkedHashSetStringConverter implements AttributeConverter<LinkedHa
     @Override
     public LinkedHashSet<LocalDate> convertToEntityAttribute(String datesString) {
         return datesString == null ? null
-                : new LinkedHashSet(Arrays.stream(datesString.split(DELIMITER))
-                .filter(d -> !d.isEmpty()).map(ds -> LocalDate.parse(ds)).collect(Collectors.toList()));
+                : new LinkedHashSet<LocalDate>(Arrays.stream(datesString.split(DELIMITER))
+                .filter(d -> !d.isEmpty())
+                .map(LocalDate::parse)
+                .collect(Collectors.toList()));
     }
 }
